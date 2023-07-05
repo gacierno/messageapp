@@ -1,1 +1,81 @@
-<h1>home page</h1>
+<h2 class="ui center aligned icon header">
+  <i class="circular pink beer icon"></i>
+  Say Something
+</h2>
+
+<div class="ui two column grid">
+
+  <!-- chat box -->
+  <div class="twelve wide column">
+    <div class="ui fluid raised card chatbox">
+      <div class="content">
+        <div class="ui feed">
+          <div class="event">
+            <div class="label">
+              <%= image_tag("user.png")%>
+            </div>
+            <div class="content">
+              <div class="date">
+                3 days ago
+              </div>
+              <div class="summary">
+                <a>Helen Troy</a> said
+              </div>
+              <div class="extra text">
+                Have you seen what's going on in Israel? Can you believe it.
+              </div>
+            </div>
+          </div>
+          <div class="event">
+            <div class="label">
+              <%= image_tag("user.png")%>
+            </div>
+            <div class="content">
+              <div class="date">
+                3 days ago
+              </div>
+              <div class="summary">
+                <a>Laura Faucet</a> said
+              </div>
+              <div class="extra text">
+                Have you seen what's going on in Israel? Can you believe it.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="extra content">
+        <form class="ui reply form">
+          <div class="field">
+            <div class="ui fluid icon input">
+              <input type="text" placeholder="Send a message...">
+              <i class="bordered inverted pink telegram icon"></i>
+            </div>
+          </div>
+        </form>
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- vertical nav -->
+  <div class="four wide column">
+    <div class="ui fluid raised card chatbox">
+      <div class="content">
+        <div class="ui inverted vertical menu">
+          <a class="active item">
+            Home
+          </a>
+          <a class="item">
+            Messages
+          </a>
+          <a class="item">
+            Friends
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
